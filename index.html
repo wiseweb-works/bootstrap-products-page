@@ -3,17 +3,163 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Clarusway Market</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg bg-body-secondary">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">
+          <img
+            src="img/clarusway_logo.png"
+            alt="Clarusway_logo"
+            width="50px"
+          />Clarusway
+        </a>
+
+        <ul class="navbar-nav">
+          <button type="button" class="btn btn-secondary position-relative">
+            Shopping Cart
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark"
+            >
+              6
+              <span class="visually-hidden">item on Card</span>
+            </span>
+          </button>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- CARDS -->
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-4">
+          <img src="./img/kamp_desktop.jpg" class="img-fluid" alt="..." />
+        </div>
+        <div class="col-8">
+          <div class="row row-cols-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="./img/sandalye.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Camping Chair</h5>
+                  <p class="card-text"><del>₺1000</del> ₺750</p>
+                  <div class="center d-flex justify-content-center">
+                    <button
+                      type="button"
+                      class="btn btn-primary m-auto w-75 w-75"
+                    >
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/termos.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Thermos</h5>
+                  <p class="card-text"><del>₺675</del> ₺525</p>
+                  <div class="center d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary m-auto w-75">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/kamp_masa.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Foldable Table</h5>
+                  <p class="card-text"><del>₺999</del> ₺960</p>
+                  <div class="center d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary m-auto w-75">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/cadir.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Waterproof Tent</h5>
+                  <p class="card-text"><del>₺5000</del> ₺3900</p>
+                  <div class="center d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary m-auto w-75">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/canta.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">25L Bag</h5>
+                  <p class="card-text"><del>₺2460</del> ₺1650</p>
+                  <div class="center d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary m-auto w-75">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./img/kafa_lambasi.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Head Lamp</h5>
+                  <p class="card-text"><del>₺75</del> ₺65</p>
+                  <div class="center d-flex justify-content-center">
+                    <button type="button" class="btn btn-primary m-auto w-75">
+                      Add to Cart
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <div
+        class="alert alert-secondary alert-dismissible fade show position-absolute bottom-0 start-0"
+        role="alert"
+      >
+        <strong>Hey Visitor!</strong> You should check my
+        <a href="https://www.github.com/wiseweb-works" class="alert-link"
+          >Github</a
+        >
+        Profile.
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+      </div>
+    </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
