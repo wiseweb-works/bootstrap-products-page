@@ -1,5 +1,5 @@
 ![Clarusway Market](./img/project%20preview.png?raw=true)
-
+        
 <h1 align="center">Clarusway Market</h1>
 
 <div align="center">
